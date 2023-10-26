@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(images/home\ bg\ 3.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#wlcm-text{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.search-bar{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px 0px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#search-text,#search-emoji{
+    border: 0px solid black;
+    padding: 5px 15px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 3px 0px 20px 0px;
+}
+
+#search-emoji:hover{
+    cursor: pointer;
+}

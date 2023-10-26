@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Algerian;
+    src: url("ALGERIAN.TTF");
+}
+
+body{
+    background-image: url(images/home\ bg\ 3.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    margin: 5px 30px;
+}
+
+#nav-bar{
+    display: flex;
+}
+
+nav ul{
+    padding: 0px 20px;
+    margin: 8px 20px;
+    margin-left: 450px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px 15px;
+}
+
+.nav-el{
+    color: black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-el:hover{
+    border: 2px solid black;
+    border-radius: 18px;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+}
+
+#login-btn a{
+    background-color: green;
+    border-radius: 18px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 30px;
+}
+
+#login-btn a:hover{
+    background-color: green;
+    border: px solid black;
+    border-radius: 18px;
+    padding: 12px 32px;
+}
+
+#Home{
+    display: flex;
+    margin: 30px 50px;
+}
+
+#intro{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 50px 100px 20px;
+    font-style: italic;
+}
+
+#Home img{
+    border-radius: 20px;
+}
+
+#About {
+    margin: 30px 200px;
+}
+
+#About h1,#FAQs h1{
+    font-size: 50px;
+    font-family: Algerain;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#About ul{
+    margin: 20px ;
+}
+
+#About ul li{
+    text-align: left;
+    font-size: 30px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.work img{
+    border-radius: 10px;
+    margin: 130px 50px;
+}
+
+ol{
+    margin-top: 30px;
+}
+
+ol li b{
+    font-size: 30px;
+}
+
+ol li p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#ContactUs{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}

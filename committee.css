@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(images/home\ bg\ 3.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#wlcm-text{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    background: linear-gradient(grey,white);
+    border-radius: 20px;
+    padding: 20px ;
+}
+
+.elements{
+    font-size: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#name-el,#age-el, #aadhar-el, #fcode-el, #id-el{
+    padding: 5px 15px ;
+    border-radius: 10px;
+    margin-top: 3px ;
+    margin-bottom: 20px ;
+    width: 300px;
+    height: 25px;
+    text-align: inherit;
+}
+
+#paadhar{
+    margin-top: 40px;
+}
+
+.add-btn,.delete-all{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: bisque;
+    margin-right: 20px;
+}
+
+.add-btn:hover,.delete-all:hover{
+    cursor: pointer;
+    width: 210px;
+    padding: 6px 15px ;
+}
+
+#err-msg{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.search-bar{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px 0px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#search-text,#search-emoji{
+    border: 0px solid black;
+    padding: 5px 15px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 3px 0px 20px 0px;
+}
+
+#search-emoji:hover{
+    cursor: pointer;
+}
+
+table,tr,th,td{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 7px; 
+}
+
+table{
+    margin: 30px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1450px;
+    font-size: 20px;
+    background:linear-gradient(gray,bisque);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    padding: 5px 10px ;
+    background-color: bisque;
+}
+
+td {
+    background-color: whitesmoke;
+}
+
+#location, #delete-row{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 30px;
+    padding: 0px 10px ;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#location:hover, #delete-row:hover{
+    padding: 2px 12px;
+    cursor: pointer;
+}

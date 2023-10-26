@@ -1,0 +1,49 @@
+body{
+    /* background:linear-gradient(rgb(30, 152, 218),white); */
+    background-image: url(images/home\ bg\ 3.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#code,#pass{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 8px auto 0px auto;
+    text-align: center;
+    border: 2px solid black;
+}
+
+img{
+    margin-bottom: 60px;
+}
+
+button a{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 13px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    width: 200px;
+    font-weight: bold;
+}
+
+button:hover{
+    width: 210px;
+    padding: 15px 20px;
+}

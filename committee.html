@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Committee Page</title>
+    <link rel="stylesheet" href="committee.css">
+</head>
+<body>
+    <p id="wlcm-text">Welcome to the Wander Guard Committee Page!</p>
+    <div class="container"> 
+        <div class="container1">
+            <div>
+                <b><p class="elements">NAME</p></b>
+                <input type="text" placeholder="Name" id="name-el" required>
+                <b><p class="elements">AGE</p></b>
+                <input type="text" placeholder="Age" id="age-el" required>
+            </div>
+            <div>
+                <b><p class="elements" id ="paadhar">AADHAR NUMBER</p></b>
+                <input type="text" placeholder="Aadhar No" id="aadhar-el" required>
+            </div>
+            <div>
+                <b><p class="elements">FAMILY CODE</p></b>
+                <input type="text" placeholder="Family Code" id="fcode-el" required>
+                <b><p class="elements">ID CARD NUMBER</p></b>
+                <input type="text" placeholder="ID Card No" id="id-el" required>
+            </div>
+        </div>
+        <button class="add-btn" onclick="addBtn()">ADD</button>
+        <button class="delete-all" onclick="deleteAll()"> DELETE ALL </button>
+    </div>
+    <p id="err-msg"></p>
+    <div class="search-bar">
+        <input type="text" placeholder="Search with name " id="search-text">
+        <input type="button" value="🔍" onclick="searchName()" id="search-emoji">
+    </div>
+    <table id="table-el"></table>
+    <script src="committee.js"></script>
+</body>
+</html>
